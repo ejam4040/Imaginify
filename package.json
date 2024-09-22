@@ -6,9 +6,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@clerk/nextjs": "^5.6.0",
     "@headlessui/react": "^2.1.8",
     "@heroicons/react": "^2.1.5",
     "@radix-ui/react-checkbox": "^1.1.1",
+    "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-dropdown-menu": "^2.1.1",
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-separator": "^1.1.0",
@@ -20,15 +22,19 @@
     "clsx": "^2.1.1",
     "geist": "^1.2.1",
     "lucide-react": "^0.436.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.3",
     "next": "^14.2.13",
     "next-themes": "^0.3.0",
     "prettier": "^3.3.3",
+    "qs": "^6.13.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "recharts": "^2.12.7"
   },
   "devDependencies": {
     "@types/node": "20.10.6",
+    "@types/qs": "^6.9.16",
     "@types/react": "18.2.46",
     "@types/react-dom": "18.2.18",
     "postcss": "8.4.33",
